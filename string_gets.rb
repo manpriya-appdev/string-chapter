@@ -7,5 +7,6 @@
 # "Hello, Hannah!"
 
 name = gets.chomp
+name = name.capitalize
 result = "Hello, ".concat(name).concat("!")
 print result

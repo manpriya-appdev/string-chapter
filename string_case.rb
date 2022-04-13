@@ -11,6 +11,6 @@ other_people = " aNd fAmIlY"
 greeting_upcase = greeting.upcase
 people_downcase = people.downcase
 other_people_swapcase = other_people.swapcase
-result = greeting_upcase.concat(" ").concat(people_downcase).concat(" ").concat(other_people_swapcase)
+result = greeting_upcase.concat(people_downcase).concat(other_people_swapcase)
 
 print result
